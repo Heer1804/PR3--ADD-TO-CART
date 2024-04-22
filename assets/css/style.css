@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* root */
+:root {
+    --offcanvas: #2d2f31;
+    --hover: #01497c;
+    --bg_1: #1f1f1f;
+    --bg_2: #28292a;
+    --border: #444746;
+    --text: #c4c7c5;
+    --round: #2d2f31;
+}
+
+body {
+    font-family: 'Poiret One', sans-serif;
+}
+
+/* utilities class */
+.gold {
+    color: #c5a645;
+}
+
+.ls {
+    letter-spacing: 3px;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.grey {
+    color: #c4c7c5;
+}
+
+.text {
+    color: #dfe5f2;
+}
+.shadow {
+    box-shadow:-2px 0px 17px 1px #4e4c4c9a !important;
+}
+
+
+/* header */
+nav .navbar-collapse ul li a{
+    transition: all 0.2s ease-in;
+}
+nav .navbar-collapse ul li:hover a{
+    color: #c5a645 !important;
+}
+
+/* footer */
+footer .foot .details i{
+    transition: all 0.5s ease-out;
+}
+footer .foot .details:hover i{
+    color: #c5a645 !important;
+}
+
+
+
+/* home */
+.insta {
+    width: 28px;
+    height: 30px;
+    transition: all 0.5s linear;
+    display: flex;
+}
+.follow:hover .insta {
+    opacity: 1 !important;
+}
+
+.follow img {
+    transition: all .5s linear;
+}
+
+.follow:hover img {
+    opacity: 0.5 !important;
+}
+
+.h_box {
+    transition: all .8s linear;
+}
+
+.h_img:hover .h_box {
+    opacity: 1 !important;
+}
+
+.h_img img {
+    transition: all .8s ease;
+}
+
+.h_img:hover img {
+    transform: scale(1.05, 1.05);
+    transition: all .8s ease;
+}
+
+
+/* top btn */
+#myBtn {
+    bottom: 20px;
+    right: 30px;
+}
+
+#myBtn:hover {
+    animation: icon 1s ease-in-out
+}
+
+@-webkit-keyframes icon {
+    0% {
+        bottom: 8px
+    }
+    25% {
+        bottom: 15px
+    }
+    50% {
+        bottom: 10px
+    }
+    75% {
+        bottom: 15px
+    }
+    100% {
+        bottom: 10px
+    }
+}
+
+@keyframes icon {
+    0% {
+        bottom: 8px
+    }
+    25% {
+        bottom: 15px
+    }
+    50% {
+        bottom: 10px
+    }
+    75% {
+        bottom: 15px
+    }
+    100% {
+        bottom: 10px
+    }
+}
+
+/* shop */
+.s_img{
+    transition: all 0.5s linear;
+}
+.s_img:hover img{
+  opacity: .5;
+}
+
+/* blog */
+#ui-datepicker-div {
+	font-size: 62.5%;
+}
+
+/* about_us */
+#ui-datepicker-div{
+    font-size: 90%;
+}
+
+/* profile */
+:is(input,textarea,select):focus{
+    box-shadow: 0 0 0 0.25rem #ebcc71 !important;
+}
+input,textarea,select{
+    border-color:#ebcc71 !important;
+}

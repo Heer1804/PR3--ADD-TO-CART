@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet_Jane</title>
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- remixicon -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- bs -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="bg-black ">
+
+    <!-- header -->
+    <section>
+        <nav class="navbar nav navbar-expand-lg">
+            <div class="container-fluid ">
+                <a href="javascript:void(0)">
+                    <img src="assets/image/1.png" class="img-fluid ms-0 navbar-brand navbar w-50" alt="logo">
+                </a>
+                <button class="navbar-toggler navbar-dark " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#click">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="click">
+                    <ul class="navbar-nav ms-auto text-light">
+                        <li class="nav-item"><a href="index.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="shop.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Shop</a>
+                        </li>
+                        <li class="nav-item"><a href="blog.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Blog</a>
+                        </li>
+                        <li class="nav-item"><a href="about_us.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">About
+                                Us</a></li>
+                        <li class="nav-item"><a href="contact_us.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Contact
+                                Us</a></li>
+                        <li class="nav-item"><a href="#oc" class="nav-link text-light fs-4 me-1 text-uppercase "
+                                data-bs-toggle="offcanvas" data-bs-target="#" ><i
+                                    class="ri-shopping-cart-2-line" data-bs-toggle="tooltip" data-bs-title="Shopping cart" ></i></a></li>
+                        <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-light fs-4 me-1 text-uppercase " data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                                <i class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a></li>
+                        <li class="nav-item"><a href="profile.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase "><i
+                                    class="ri-account-box-line" data-bs-toggle="tooltip" data-bs-title="Profile"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-end ps-3" id="oc" data-bs-scroll="true" data-bs-backdrop="false"
+        style="background-color: #ffee99;">
+        <div class="offcanvas-header ">
+            <h2 class="offcanvas-title text-body">Shopping cart</h2>
+            <button class="btn-close " data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h5>Your Shopping Cart is Currently Empty</h5>
+            <a href="shop.html">
+                <button class="btn text-body fw-bolder  btn-outline-warning mt-4 ">Shop Now</button>
+            </a>
+        </div>
+    </div> 
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Wishlist</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Your wishlist is currently empty
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning " data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <section data-aos="fade-up" data-aos-duration="3000">
+        <div class="container-fluid mb-4">
+            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner shadow">
+                    <div class="carousel-item active ">
+                        <img src="assets/image/2.jpg" class="w-100 d-block object-fit-cover vh-100" alt="...">
+                        <div class="carousel-caption " data-aos="fade-up" data-aos-duration="3000">
+                            <p class="display-4 text-white fw-bold">Unmistakably<br>Sweet Jane</p>
+                            <a href="shop.html"><button class="btn btn-warning fs-5 fw-semibold">Order Now</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/1.jpg" class="w-100 d-block object-fit-cover vh-100" alt="img">
+                        <div class="carousel-caption " data-aos="fade-up" data-aos-duration="3000">
+                            <p class="display-4 text-light fw-bold">Let's try Perfection</p>
+                            <a href=""><button class="btn btn-warning fs-5 fw-semibold">Order Now</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/3.jpg" class="w-100 d-block object-fit-cover vh-100" alt="...">
+                        <div class="carousel-caption " data-aos="fade-up" data-aos-duration="3000">
+                            <p class="display-4 text-white  fw-bold">Pure Artistry<br> Always Fresh</p>
+                            <a href=""><button class="btn btn-warning fs-5 fw-semibold">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- description -->
+    <section>
+        <div class="container mb-3 ">
+            <div class="row">
+                <div class="col-lg-5" data-aos="fade-up" data-aos-duration="3000">
+                    <p class="gold display-4">Modern & Contemporary<br>Cake Design</p>
+                </div>
+                <div class="col-lg-7" data-aos="fade-up" data-aos-duration="3000">
+                    <p class="text ls mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis consequuntur
+                        beatae qui voluptas excepturi ex, odio veniam minus ipsam sit veritatis magnam porro itaque
+                        repellendus quasi esse. Ratione, deserunt. Dolore. um dolor, sit amet consectetur adipisicing
+                        elit. Nobis consequuntur beatae qui voluptas excepturi ex, odio veniam minus ipsam sit veritatis
+                        magnam porro itaque repellendus quasi esse. Ratione, deserunt. Dolore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- highlights -->
+    <section>
+        <div class="container mb-3 ">
+            <p class="display-5 text-center gold" data-aos="fade-up" data-aos-duration="2000">Our Speciality</p>
+            <div class="row">
+                <div class="col-md-12 col-lg-6 ">
+                    <div class="h_img position-relative">
+                        <div class=" overflow-hidden shadow mb-2 " data-aos="fade-up" data-aos-duration="3000">
+                            <img src="assets/image/6.jpg" class="w-100 img " alt="">
+                            <div
+                                class="h_box opacity-0 position-absolute start-50 top-50               translate-middle w-50">
+                                <div class="bg-warning p-2 d-flex flex-wrap justify-content-between">
+                                    <a href="javascript:void(0)" class="text-decoration-none text-black">Add To Cart</a>
+                                    <a href="javascript:void(0)" class="text-decoration-none text-black me-2 border border-black px-1"><i class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h_body mb-3" data-aos="fade-up" data-aos-duration="3000">
+                            <h5 class="ls-1 gold">Coconut Star</h5>
+                            <span class="grey">$11.00</span>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 ">
+                            <div class=" position-relative">
+                                <div class="h_img shadow overflow-hidden mb-2 position-relative" data-aos="fade-up"
+                                    data-aos-duration="3000">
+                                    <img src="assets/image/4.jpg" class="w-100 " alt="">
+                                    <div
+                                        class="h_box opacity-0 position-absolute start-50 top-50               translate-middle w-50">
+                                        <div class="bg-warning p-2 d-flex flex-wrap justify-content-between">
+                                            <a href="javascript:void(0)" class="text-decoration-none text-black">Add To Cart</a>
+                                            <a href="javascript:void(0)"
+                                                class="text-decoration-none text-black me-2 border border-black px-1"><i
+                                                    class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h_body mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <h5 class="ls-1 gold">Coco Cake</h5>
+                                    <span class="grey">$22.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class=" position-relative">
+                                <div class="h_img shadow overflow-hidden mb-2 position-relative " data-aos="fade-up"
+                                    data-aos-duration="3000">
+                                    <img src="assets/image/5.jpg" class="w-100 " alt="">
+                                    <div
+                                        class="h_box opacity-0 position-absolute start-50 top-50 translate-middle w-50">
+                                        <div class="bg-warning p-2 d-flex flex-wrap justify-content-between"><a href="javascript:void(0)"
+                                                class="text-decoration-none text-black">Add To Cart </a>
+                                            <a href="javascript:void(0)"
+                                                class="text-decoration-none text-black me-2 border border-black px-1"><i
+                                                    class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h_body mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <h5 class="ls-1 gold">Mimoso</h5>
+                                    <span class="grey">$25.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class=" position-relative">
+                                <div class="h_img shadow overflow-hidden mb-2 position-relative " data-aos="fade-up"
+                                    data-aos-duration="3000">
+                                    <img src="assets/image/7.jpg" class="w-100 " alt="">
+                                    <div
+                                        class="h_box opacity-0 position-absolute start-50 top-50 translate-middle w-50">
+                                        <div class="bg-warning p-2 d-flex flex-wrap justify-content-between"><a href="javascript:void(0)"
+                                                class="text-decoration-none text-black">Add To Cart </a>
+                                            <a href="javascript:void(0)"
+                                                class="text-decoration-none text-black me-2 border border-black px-1"><i
+                                                    class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h_body mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <h5 class="ls-1 gold">Sweet suprize</h5>
+                                    <span class="grey">$14.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class=" position-relative">
+                                <div class="h_img shadow overflow-hidden mb-2 position-relative " data-aos="fade-up"
+                                    data-aos-duration="3000">
+                                    <img src="assets/image/8.jpg" class="w-100 " alt="">
+                                    <div
+                                        class="h_box opacity-0 position-absolute start-50 top-50 translate-middle w-50">
+                                        <div class="bg-warning p-2 d-flex flex-wrap justify-content-between"><a href="javascript:void(0)"
+                                                class="text-decoration-none text-black">Add To Cart </a>
+                                            <a href="javascript:void(0)"
+                                                class="text-decoration-none text-black me-2 border border-black px-1"><i
+                                                    class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h_body mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                    <h5 class="ls-1 gold">Coco Passion</h5>
+                                    <span class="grey">$20.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-12">
+                            <div class=" position-relative">
+                                <div class="h_img shadow overflow-hidden mb-2 position-relative " data-aos="fade-up"
+                                    data-aos-duration="3000">
+                                    <img src="assets/image/9.jpg" class="w-100 " alt="">
+                                    <div
+                                        class="h_box opacity-0 position-absolute start-50 top-50 translate-middle w-50">
+                                        <div class="bg-warning p-2 d-flex flex-wrap justify-content-between"><a href="javascript:void(0)"
+                                                class="text-decoration-none text-black">Add To Cart </a>
+                                            <a href="javascript:void(0)"
+                                                class="text-decoration-none text-black me-2 border border-black px-1"><i
+                                                    class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h_body" data-aos="fade-up" data-aos-duration="3000">
+                                    <h5 class="ls-1 gold">Delightful Lemon</h5>
+                                    <span class="grey">$16.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- follow us -->
+    <section>
+        <div class="container ">
+            <div>
+                <p class="gold display-5 " data-aos="fade-up" data-aos-duration="3000">Follow Us</p>
+            </div>
+            <div class="row mb-3 " data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-3 follow position-relative my-4">
+                    <img src="assets/image/11.jpg" class="w-100 shadow" alt="">
+                    <div
+                        class="insta gold top-50 position-absolute start-50 bg-black rounded opacity-0 justify-content-center align-items-center translate-middle">
+                        <i class="ri-instagram-line"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 follow position-relative my-4">
+                    <img src="assets/image/12.jpg" class="w-100 shadow" alt="">
+                    <div
+                        class="insta gold top-50 position-absolute start-50 bg-black rounded opacity-0 justify-content-center align-items-center translate-middle">
+                        <i class="ri-instagram-line"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 follow position-relative my-4">
+                    <img src="assets/image/14.jpg" class="w-100 shadow" alt="">
+                    <div
+                        class="insta gold top-50 position-absolute start-50 bg-black rounded opacity-0 justify-content-center align-items-center translate-middle">
+                        <i class="ri-instagram-line"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 follow position-relative my-4">
+                    <img src="assets/image/15.jpg" class="w-100 shadow" alt="">
+                    <div
+                        class="insta gold top-50 position-absolute start-50 bg-black rounded opacity-0 justify-content-center align-items-center translate-middle ">
+                        <i class="ri-instagram-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div>
+                <p class="gold display-5 text-center" data-aos="fade-up" data-aos-duration="3000">Testimonials</p>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-aos="fade-up" data-aos-duration="3000">
+                <div class="carousel-indicators mb-0">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner text mb-3 ">
+                    <div class="carousel-item active">
+                        <div class="mb-3 ">
+                            <p class="h4 text-center">On behalf of us all - thank you for making our evening such an
+                                enjoyable
+                                one!</p>
+                            <p class="text-center pb-2">Alan Perry</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="h4 text-center">Menu is perfect, something for everyone. Service was great and will be
+                            back!</p>
+                        <p class="text-center pb-2">Patricia Carter</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="h4 text-center">I think cakes is great for us, but we must be aware how often we eat.
+                        </p>
+                        <p class="text-center pb-2">Maria Jones</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- image -->
+    <section data-aos="fade-up" data-aos-duration="3000">
+        <div class="container ">
+            <div class="mb-5 ">
+                <img src="assets/image/16.jpg" class="w-100 h-75 rounded " alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-black py-3 " data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <div class="row text-center ">
+                <div class="col-lg-4">
+                    <img src="assets/image/1.png" class="w-50" alt="">
+                </div>
+                <div class="col-lg-4 foot">
+                    <p class="gold fs-3 text-decoration-underline">Contact Us</p>
+                    <div class="d-flex details">
+                        <i class="ri-phone-fill text-light "></i>
+                        <p class="text-light mb-0 ms-3">+91 920145297</p>
+                    </div>
+                    <div class="d-flex details">
+                        <i class="ri-mail-line text-light "></i>
+                        <a class=" text-light text-decoration-none mb-0 ms-3">sweetjane@gmail.com</a>
+                    </div>
+                    <div class="d-flex details">
+                        <i class="ri-instagram-line text-light "></i>
+                        <a class=" text-light text-decoration-none mb-0 ms-3">@sweetjane_23</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 foot">
+                    <p class="gold fs-3 text-decoration-underline">Find Us</p>
+                    <div class="d-flex details">
+                        <i class="ri-map-pin-line text-light me-3 "></i>
+                        <p class="text-light text-start ">11 Boulevard Montmartre,<br>
+                            75002 Paris,France 27 Rue des Rosiers,
+                            75002 Paris, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"
+        class="position-fixed z-3 py-1 px-2 bg-transparent text-white shadow rounded-circle" data-aos="fade-up"
+        data-aos-duration="3000">
+        <i class="ri-arrow-up-double-line fs-3 "></i>
+    </button>
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+        
+    </script>
+
+</body>
+
+</html>

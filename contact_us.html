@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet_Jane</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- remixicon -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- bs -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="bg-black ">
+
+    <!-- header -->
+    <section>
+        <nav class="navbar nav navbar-expand-lg">
+            <div class="container-fluid ">
+                <a href="javascript:void(0)">
+                    <img src="assets/image/1.png" class="img-fluid ms-0 navbar-brand navbar w-50" alt="logo">
+                </a>
+                <button class="navbar-toggler navbar-dark " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#click">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="click">
+                    <ul class="navbar-nav ms-auto text-light">
+                        <li class="nav-item"><a href="index.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="shop.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Shop</a>
+                        </li>
+                        <li class="nav-item"><a href="blog.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Blog</a>
+                        </li>
+                        <li class="nav-item"><a href="about_us.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">About
+                                Us</a></li>
+                        <li class="nav-item"><a href="contact_us.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase ">Contact
+                                Us</a></li>
+                        <li class="nav-item"><a href="#oc" class="nav-link text-light fs-4 me-1 text-uppercase "
+                                data-bs-toggle="offcanvas" data-bs-target="#"><i class="ri-shopping-cart-2-line"
+                                    data-bs-toggle="tooltip" data-bs-title="Shopping cart"></i></a></li>
+                        <li class="nav-item"><a href="javascript:void(0)"
+                                class="nav-link text-light fs-4 me-1 text-uppercase " data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <i class="ri-heart-line" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a></li>
+                        <li class="nav-item"><a href="profile.html"
+                                class="nav-link text-light fs-4 me-1 text-uppercase "><i class="ri-account-box-line"
+                                    data-bs-toggle="tooltip" data-bs-title="Profile"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-end ps-3" id="oc" data-bs-scroll="true" data-bs-backdrop="false"
+        style="background-color: #ffee99;">
+        <div class="offcanvas-header ">
+            <h2 class="offcanvas-title text-body">Shopping cart</h2>
+            <button class="btn-close " data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h5>Your Shopping Cart is Currently Empty</h5>
+            <a href="shop.html">
+                <button class="btn text-body fw-bolder  btn-outline-warning mt-4 ">Shop Now</button>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Wishlist</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Your wishlist is currently empty
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning " data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <section data-aos="fade-up" data-aos-duration="3000">
+        <div class="container pt-3 mb-4 ">
+            <img src="assets/image/about/c2.jpg" alt="" class="w-100 object-fit-cover">
+        </div>
+    </section>
+
+    <!-- letter -->
+    <section>
+        <div class="container ">
+            <div class="text-light text-center ">
+                <p class="display-5 ls-1" data-aos="fade-up" data-aos-duration="3000">Write Us a Letter</p>
+                <div class="row">
+                    <div class="col-lg-5 ">
+                        <p class="ls-1 p-5 " data-aos="fade-up" data-aos-duration="3000">Apple pie biscuit bear claw.
+                            Macaroon sugar plum icing donut danish
+                            chocolate bar cheesecake chocolate cake soufflé dragée.</p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-2 mb-3 ">
+                            <div class="mb-2 " data-aos="fade-up" data-aos-duration="3000">
+                                <input type="text" class="form-control shadow" placeholder="Name" required>
+                            </div>
+                            <div class="mb-2 " data-aos="fade-up" data-aos-duration="3000">
+                                <input type="email" class="form-control shadow" placeholder="E-mail" required>
+                            </div>
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="3000">
+                                <textarea class="form-control shadow" placeholder="Message" id="floatingTextarea"
+                                    required></textarea>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="3000">
+                                <a href="javascript:void(0)"><button
+                                        class="btn text-light fs-6 btn-outline-warning ">Send</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section>
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="text-white mb-3 mb-lg-2 " data-aos="fade-up" data-aos-duration="3000">
+                        <p class="fs-2 ls-1 fw-medium mb-0">Paris</p>
+                        <p class="mb-0 ls-1">11 Boulevard Montmartre</p>
+                        <a href="tel:+33178923427" class="text-white text-decoration-none ">+33 17 89 234 27</a>
+                        <p class="mb-0 mt-3 ls-1">Rue des Rosiers</p>
+                        <a href="tel:+33178923427" class="text-white text-decoration-none ">+33 69 21 234</a>
+                    </div>
+                    <img src="assets/image/about/c3.jpg" class="w-100 " data-aos="fade-up" data-aos-duration="3000"
+                        alt="">
+                </div>
+                <div class="col-lg-6 mb-4 ">
+                    <div class="text-white mb-3" data-aos="fade-up" data-aos-duration="3000">
+                        <p class="fs-2 ls-1 fw-medium  mb-0">Lyon</p>
+                        <p class="mb-0 ls-1">Place Benoît-Crépu</p>
+                        <a href="tel:+336921548" class="text-white text-decoration-none ">+33 69 21 548</a>
+                        <p class="mb-0 mt-3 ls-1">Boulevard de la Croix-Rousse</p>
+                        <a href="tel:+331789234" class="text-white text-decoration-none ">+33 17 89 234</a>
+                    </div>
+                    <img src="assets/image/about/c4.jpg" class="w-100 " data-aos="fade-up" data-aos-duration="3000"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- map -->
+    <section class="mb-5 " data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1312.153299225575!2d2.340305399510084!3d48.87143148126079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e3e9dcfbb4b%3A0x2e1abb8593859a8c!2s11%20Bd%20Montmartre%2C%2075002%20Paris%2C%20France!5e0!3m2!1sen!2sin!4v1704477403091!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-black py-3 " data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row text-center ">
+                <div class="col-lg-4">
+                    <img src="assets/image/1.png" class="w-50" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <p class="gold fs-3 text-decoration-underline">Contact Us</p>
+                    <div class="d-flex ">
+                        <i class="ri-phone-fill text-light "></i>
+                        <p class="text-light mb-0 ms-3">+91 920145297</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="ri-mail-line text-light "></i>
+                        <a class=" text-light text-decoration-none mb-0 ms-3">sweetjane@gmail.com</a>
+                    </div>
+                    <div class="d-flex">
+                        <i class="ri-instagram-line text-light "></i>
+                        <a class=" text-light text-decoration-none mb-0 ms-3">@sweetjane_23</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <p class="gold fs-3 text-decoration-underline">Find Us</p>
+                    <div class="d-flex">
+                        <i class="ri-map-pin-line text-light me-3 "></i>
+                        <p class="text-light text-start ">11 Boulevard Montmartre,<br>
+                            75002 Paris,France 27 Rue des Rosiers,
+                            75002 Paris, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"
+        class="position-fixed z-3 py-1 px-2 bg-transparent text-white shadow rounded-circle" data-aos="fade-up"
+        data-aos-duration="3000">
+        <i class="ri-arrow-up-double-line fs-3 "></i>
+    </button>
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
